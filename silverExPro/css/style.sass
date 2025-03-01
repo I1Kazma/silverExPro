@@ -47,6 +47,9 @@ body
     color: white
     font-weight: 700
 
+    @include mobile-big
+        font-size: 30px
+
 .header__subtitle
     font-size: 15px
     font-weight: 700
@@ -55,6 +58,9 @@ body
 .header__logo img
     width: 100%
     max-width: 182px
+
+    @include mobile-big
+        max-width: 120px
 
 .page__content
     display: flex
