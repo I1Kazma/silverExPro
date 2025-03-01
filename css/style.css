@@ -62,7 +62,7 @@ body {
 }
 @media (max-width: 576px) {
   .header__subtitle {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
