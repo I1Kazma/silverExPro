@@ -60,6 +60,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+@media (max-width: 576px) {
+  .header__subtitle {
+    font-size: 13px;
+  }
+}
 
 .header__logo img {
   width: 100%;
