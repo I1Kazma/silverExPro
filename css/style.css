@@ -250,6 +250,7 @@ body {
   max-width: fit-content;
   font-size: 30px;
   align-items: center;
+  outline: none;
 }
 @media (max-width: 992px) {
   .button {
